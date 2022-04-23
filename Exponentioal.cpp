@@ -13,7 +13,7 @@ int main(){
 int powerr(int x,int n){
 	int temp=1;
 	while(n){
-		if(n%2!=0){
+		if(n&2!=0){ // n%2!=0
 			temp=temp*x;
 		}
 		
